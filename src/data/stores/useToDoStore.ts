@@ -35,7 +35,7 @@ const getCurrentState = () => {
     return []
 }
 
-export const useToDoStore = create<ToDoStore>()(
+export const useToDoStore = create<ToDoStore>() (
   devtools(
     localStorageUpdate((set, get) => ({
       tasks: getCurrentState(),

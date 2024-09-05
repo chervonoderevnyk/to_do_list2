@@ -93,7 +93,6 @@ const InputTaskComponent: React.FC<Props> = ({
                 }
             }}
             />
-
         </div>
     );
 };
